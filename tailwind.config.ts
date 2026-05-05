@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 const config: Config = {
   content: [
@@ -9,11 +10,64 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "surface-container-high": "#e8e8e8",
+        "surface-dim": "#dadada",
+        "surface-container-highest": "#e2e2e2",
+        "surface-bright": "#f9f9f9",
+        background: "#f9f9f9",
+        "inverse-surface": "#2f3131",
+        error: "#ba1a1a",
+        "surface-tint": "#5e5e5e",
+        surface: "#f9f9f9",
+        "on-secondary-container": "#1b1b1b",
+        "on-secondary": "#ffffff",
+        "surface-container-low": "#f3f3f4",
+        "on-tertiary-container": "#ffffff",
+        "on-primary-container": "#ffffff",
+        "primary-container": "#3b3b3b",
+        "secondary-fixed-dim": "#ababab",
+        "error-container": "#ffdad6",
+        "on-error-container": "#410002",
+        "inverse-primary": "#c6c6c6",
+        "inverse-on-surface": "#f0f1f1",
+        "tertiary-fixed": "#6d4ea2",
+        secondary: "#5e5e5e",
+        "on-primary": "#e2e2e2",
+        "on-tertiary-fixed-variant": "#ecdcff",
+        primary: "#000000",
+        tertiary: "#48297c",
+        "on-tertiary": "#ecdcff",
+        "tertiary-fixed-dim": "#543588",
+        "secondary-container": "#d4d4d4",
+        outline: "#777777",
+        "surface-container-lowest": "#ffffff",
+        "surface-container": "#eeeeee",
+        "outline-variant": "#c6c6c6",
+        "on-error": "#ffffff",
+        "on-surface-variant": "#474747",
+        "primary-fixed-dim": "#474747",
+        "on-primary-fixed-variant": "#e2e2e2",
+        "tertiary-container": "#8464ba",
+        "surface-variant": "#e2e2e2",
+        "primary-fixed": "#5e5e5e",
+        "on-surface": "#1a1c1c",
+        "secondary-fixed": "#c6c6c6",
+        "on-background": "#1a1c1c",
+        accent: "#6B4CA0",
+      },
+      fontFamily: {
+        headline: ["var(--font-playfair)", "Playfair Display", "serif"],
+        body: ["var(--font-inter)", "Inter", "sans-serif"],
+        label: ["var(--font-inter)", "Inter", "sans-serif"],
+        signature: ["var(--font-caveat)", "Caveat", "cursive"],
+        sans: ["var(--font-inter)", "Inter", "sans-serif"],
+        serif: ["var(--font-playfair)", "Playfair Display", "serif"],
+      },
+      maxWidth: {
+        editorial: "68ch",
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
 export default config;
