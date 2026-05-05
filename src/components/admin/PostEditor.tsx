@@ -19,7 +19,6 @@ import {
   AlignLeft, AlignCenter, AlignRight, AlignJustify,
   Link as LinkIcon, Image as ImageIcon,
   Undo, Redo, Loader2, Sparkles, Save, ChevronDown, Check, X,
-  Eye, EyeOff,
 } from "lucide-react";
 import { slugifyText } from "@/lib/utils";
 
@@ -241,7 +240,6 @@ export default function PostEditor({ postId, initialData, categories }: PostEdit
   if (!editor) return null;
 
   const metaTitleOk = metaTitle.length > 0 && metaTitle.length <= 60;
-  const metaDescOk = metaDescription.length > 0 && metaDescription.length <= 160;
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">

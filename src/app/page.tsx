@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import NextImage from "next/image";
 import TimelineSlider from "@/components/home/TimelineSlider";
 
 export const metadata: Metadata = {
@@ -30,7 +31,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hero-right">
-            <img alt="Twee vrouwen lachen samen in het park" src="/hero.png" />
+            <NextImage alt="Twee vrouwen lachen samen in het park" src="/hero.png" fill style={{ objectFit: "cover", objectPosition: "center 22%" }} />
           </div>
         </section>
 
@@ -240,10 +241,12 @@ export default function HomePage() {
           <div className="wrap">
             <div className="founder-img-wrap">
               <div className="founder-img-bg"></div>
-              <img
+              <NextImage
                 src="/images/Vincent van Munster.webp"
                 alt="Vincent van Münster, oprichter Stichting Philia"
                 className="founder-portrait-img"
+                width={480}
+                height={640}
               />
             </div>
             <div className="founder-content">
@@ -273,13 +276,13 @@ export default function HomePage() {
           <div className="wrap">
             <span className="partners-label">Impact gemaakt met o.a.</span>
             <div className="partners-logos">
-              <img src="/images/partners/Logo Oranje Fonds.png" alt="Oranje Fonds" className="partner-logo" />
-              <img src="/images/partners/Stichting-Ruigrok.png" alt="Stichting Ruigrok" className="partner-logo" />
-              <img src="/images/partners/2021Rabo-Foundation.webp" alt="Rabobank Foundation" className="partner-logo" />
-              <img src="/images/partners/gemeente-utrecht-1-logo.png" alt="Gemeente Utrecht" className="partner-logo" />
-              <img src="/images/partners/Anton Jurgens fonds.png" alt="Anton Jurgens Fonds" className="partner-logo" />
-              <img src="/images/partners/delongh logo.png" alt="De Longh" className="partner-logo" />
-              <img src="/images/partners/Gemeente Haarlemmermeer Subsidie.png" alt="Gemeente Haarlemmermeer" className="partner-logo" />
+              <NextImage src="/images/partners/Logo Oranje Fonds.png" alt="Oranje Fonds" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/Stichting-Ruigrok.png" alt="Stichting Ruigrok" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/2021Rabo-Foundation.webp" alt="Rabobank Foundation" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/gemeente-utrecht-1-logo.png" alt="Gemeente Utrecht" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/Anton Jurgens fonds.png" alt="Anton Jurgens Fonds" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/delongh logo.png" alt="De Longh" className="partner-logo" width={160} height={36} />
+              <NextImage src="/images/partners/Gemeente Haarlemmermeer Subsidie.png" alt="Gemeente Haarlemmermeer" className="partner-logo" width={160} height={36} />
             </div>
           </div>
         </section>
@@ -346,7 +349,7 @@ export default function HomePage() {
         <div className="footer-grid">
           <div>
             <a className="footer-logo" href="/">
-              <img src="/images/logo.png" alt="Stichting Philia" />
+              <NextImage src="/images/logo.png" alt="Stichting Philia" width={30} height={30} />
               <span className="footer-logo-name">Stichting Philia</span>
             </a>
             <p className="footer-desc">Philia borgt platforms die technologie inzetten als correctiemechanisme voor maatschappelijke impact. Actief in verbinding maken sinds 2009.</p>
