@@ -9,7 +9,6 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { href: "/#over-ons", label: "Ons verhaal", anchor: true },
   { href: "/#platforms", label: "Platforms", anchor: true },
-  { href: "/blog", label: "Blog", anchor: false },
   { href: "/#contact", label: "Contact", anchor: true },
 ];
 

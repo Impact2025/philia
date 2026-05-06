@@ -10,8 +10,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/over-ons", label: "Ons verhaal" },
   { href: "/platforms", label: "Platforms" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function HomeNav() {
@@ -55,7 +54,7 @@ export default function HomeNav() {
             </ul>
           </nav>
 
-          <Link href="/contact" className="nav-cta">Neem contact op</Link>
+          <Link href="/#contact" className="nav-cta">Neem contact op</Link>
 
           <button
             className="nav-mobile-btn"
@@ -86,7 +85,7 @@ export default function HomeNav() {
             </Link>
           ))}
         </div>
-        <Link href="/contact" className="nav-mobile-cta" onClick={() => setIsOpen(false)}>
+        <Link href="/#contact" className="nav-mobile-cta" onClick={() => setIsOpen(false)}>
           Neem contact op →
         </Link>
       </div>
