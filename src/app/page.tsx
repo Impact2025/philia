@@ -26,8 +26,8 @@ export default function HomePage() {
               al lang zoeken, maar zonder slimme matching niet vinden.
             </p>
             <div className="hero-actions">
-              <a className="btn-fill" href="/platforms">Bekijk Vrijwilligersmatch →</a>
-              <a className="btn-ghost-text" href="/contact">Steun de uitrol →</a>
+              <a className="btn-fill" href="/#platforms">Bekijk onze platforms →</a>
+              <a className="btn-ghost-text" href="/#contact">Steun de uitrol →</a>
             </div>
           </div>
           <div className="hero-right">
@@ -206,36 +206,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="platform-feature" id="platforms">
-          <div className="wrap">
-            <span className="label">Het eerste project</span>
-            <div className="pf-grid">
-              <div className="pf-intro">
-                <h2>Vrijwilligersmatch — de juiste vrijwilliger, op het juiste moment.</h2>
-                <p className="pf-lead">
-                  Een digitaal platform dat mensen met een beperking koppelt aan vrijwilligers —
-                  niet op diagnose of beschikbaarheid, maar op gedeelde motivatie, interesses en
-                  karakter. De match die echt kloppen geeft.
-                </p>
-                <a className="btn-fill" href="/platforms">Meer over Vrijwilligersmatch →</a>
-              </div>
-              <div className="pf-cards">
-                <div className="pf-card">
-                  <span className="pf-card-label">Voor wie</span>
-                  <p>Vrijwilligers die iets willen betekenen maar niet weten waar te beginnen — en organisaties die chronisch kampen met een tekort aan mensen.</p>
-                </div>
-                <div className="pf-card">
-                  <span className="pf-card-label">Hoe het werkt</span>
-                  <p>Snel swipen op basis van skills, buurt en motivatie. Een consumentenervaring die vrijwilligerswerk aantrekkelijk maakt voor nieuwe generaties.</p>
-                </div>
-                <div className="pf-card pf-card-highlight">
-                  <span className="pf-card-label">Status</span>
-                  <p>Platform gereed. Pilot gestart in Heemstede. Op zoek naar structurele financiering voor landelijke uitrol.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section className="founder">
           <div className="wrap">
@@ -294,8 +264,8 @@ export default function HomePage() {
               <div className="stewardship-left">
                 <h2>Geborgd voor de lange termijn.</h2>
                 <p className="stewardship-lead">
-                  Stichting Philia is de juridische en bestuurlijke thuis voor Vrijwilligersmatch
-                  en de projecten die volgen. Als stichting met een onafhankelijk bestuur
+                  Stichting Philia is de juridische en bestuurlijke thuis voor de platforms
+                  en projecten die volgen. Als stichting met een onafhankelijk bestuur
                   en een lopende ANBI-aanvraag garandeert Philia dat de platforms blijven
                   werken — ongeacht wie er aan het roer staat.
                 </p>
@@ -322,7 +292,7 @@ export default function HomePage() {
                   <span className="pillar-n">03</span>
                   <div>
                     <span className="pillar-title">Meer projecten volgen</span>
-                    <p>Vrijwilligersmatch is het eerste. Philia is de paraplu waaronder meer impactvolle projecten een thuis vinden.</p>
+                    <p>Pootgelukkig en Samenvaren zijn de eerste. Philia is de paraplu waaronder meer impactvolle projecten een thuis vinden.</p>
                   </div>
                 </div>
               </div>
@@ -337,9 +307,9 @@ export default function HomePage() {
               <div className="cta-text">
                 <span className="label on-dark">Doe mee</span>
                 <h2>Maak de uitrol mogelijk.</h2>
-                <p>Vrijwilligersmatch is klaar — het platform werkt, de pilot loopt. Wat ontbreekt is structurele financiering voor de landelijke uitrol. Als fonds, gemeente of partner investeer je direct in een bewezen aanpak, geborgd door een stichting met een onafhankelijk bestuur en een lopende ANBI-aanvraag.</p>
+                <p>Onze platforms werken — de verbindingen zijn er. Wat ontbreekt is structurele financiering voor verdere groei. Als fonds, gemeente of partner investeer je direct in een bewezen aanpak, geborgd door een stichting met een onafhankelijk bestuur en een lopende ANBI-aanvraag.</p>
               </div>
-              <a className="btn-cta" href="/contact">Neem contact op →</a>
+              <a className="btn-cta" href="/#contact">Neem contact op →</a>
             </div>
           </div>
         </section>
@@ -371,15 +341,15 @@ export default function HomePage() {
             <p className="footer-col-title">Navigatie</p>
             <ul className="philia-footer-links">
               <li><a href="/over-ons">Ons verhaal</a></li>
-              <li><a href="/platforms">Platforms</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/#platforms">Platforms</a></li>
+              <li><a href="/#contact">Contact</a></li>
             </ul>
           </div>
           <div>
-            <p className="footer-col-title">Project</p>
+            <p className="footer-col-title">Platforms</p>
             <ul className="philia-footer-links">
-              <li><a href="/platforms">Vrijwilligersmatch</a></li>
+              <li><a href="https://pootgelukkig.nl" target="_blank" rel="noopener noreferrer">Pootgelukkig.nl</a></li>
+              <li><a href="https://samenvaren.nl" target="_blank" rel="noopener noreferrer">Samenvaren.nl</a></li>
             </ul>
           </div>
           <div>

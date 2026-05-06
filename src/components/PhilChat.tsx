@@ -11,7 +11,7 @@ interface Message {
 
 const SUGGESTED_QUESTIONS = [
   "Wat doet Stichting Philia?",
-  "Hoe werkt Vrijwilligersmatch.nl?",
+  "Hoe werkt Pootgelukkig.nl?",
   "Hoe kan ik meedoen?",
   "Wie is Vincent van Münster?",
 ];

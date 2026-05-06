@@ -9,7 +9,7 @@ const ITEMS = [
   { year: "2014", title: "Stichting Philia opgericht", desc: "De stichting wordt opgericht. Naam: het oud-Griekse woord voor vriendschap.", key: true },
   { year: "2015", title: "Pilot Oog voor Vriendschap", desc: "Met Gemeente Haarlemmermeer en het Oranje Fonds. Eerste bewijs dat de aanpak werkt.", key: false },
   { year: "2020", title: "Corona & verbinding", desc: "50+ online evenementen. 263 deelnemers bereikt. Mensen leren zelf events organiseren.", key: false },
-  { year: "2025", title: "Vrijwilligersmatch v1.0", desc: "AI matching op motivatie. Het meest ambitieuze platform tot nu toe. Klaar voor pilot Heemstede.", key: true },
+  { year: "2025", title: "Pootgelukkig & Samenvaren", desc: "Twee nieuwe platforms live. Verbinding via dieren en het water — voor iedereen die dat steuntje in de rug nodig heeft.", key: true },
   { year: "2026", title: "Philia als paraplu", desc: "Alle projecten onder één stichting. Eén missie, één bestuur dat borgt dat de impact doorgaat — ongeacht wie er aan het roer staat.", key: true },
 ];
 

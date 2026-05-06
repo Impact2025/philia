@@ -1,35 +1,15 @@
 import { Metadata } from "next";
 import Footer from "@/components/layout/Footer";
 import ContactCTA from "@/components/home/ContactCTA";
-import { Users, PawPrint, Anchor, ArrowRight, CheckCircle } from "lucide-react";
+import { PawPrint, Anchor, ArrowRight, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Onze platforms — Stichting Philia",
   description:
-    "Vrijwilligersmatch.nl, Pootgelukkig.nl en Samenvaren.nl. Drie platforms, één missie: mensen verbinden op basis van wie ze zijn.",
+    "Pootgelukkig.nl en Samenvaren.nl. Twee platforms, één missie: mensen verbinden op basis van wie ze zijn.",
 };
 
 const platforms = [
-  {
-    id: "vrijwilligersmatch",
-    icon: Users,
-    name: "Vrijwilligersmatch.nl",
-    url: "https://vrijwilligersmatch.nl",
-    tagline: "Vrijwilligers matchen op motivatie",
-    color: "purple",
-    description:
-      "Vrijwilligerswerk begint met de juiste motivatie — niet met de juiste vaardigheden. Vrijwilligersmatch.nl matcht vrijwilligers en organisaties op basis van wie iemand is en wat hem of haar drijft.",
-    longDescription:
-      "De meeste matching-platforms kijken naar wat je kunt. Vrijwilligersmatch.nl kijkt naar waarom je iets wilt. Want de diepste verbindingen — en de meest duurzame vrijwilligersrelaties — ontstaan als de motivatie klopt.",
-    features: [
-      "AI-matching op persoonlijkheid en drijfveren",
-      "Retentie-tracking voor organisaties",
-      "Persoonlijk matchingprofiel voor vrijwilligers",
-      "Pilot in Heemstede (2025)",
-    ],
-    stats: { label: "Hogere retentie", value: "90%" },
-    status: "Actief in pilot",
-  },
   {
     id: "pootgelukkig",
     icon: PawPrint,
@@ -110,7 +90,7 @@ export default function PlatformsPage() {
               Onze initiatieven
             </span>
             <h1 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-bold text-dark">
-              Drie platforms, één missie
+              Twee platforms, één missie
             </h1>
             <p className="mt-6 text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
               Elk platform richt zich op een andere vorm van verbinding. Maar de kern is

@@ -29,9 +29,8 @@ export default function Footer() {
             </span>
             {[
               { href: "/over-ons", label: "Ons verhaal" },
-              { href: "/platforms", label: "Platforms" },
-              { href: "/blog", label: "Blog" },
-              { href: "/contact", label: "Contact" },
+              { href: "/#platforms", label: "Platforms" },
+              { href: "/#contact", label: "Contact" },
             ].map((l) => (
               <Link
                 key={l.href}
@@ -48,7 +47,6 @@ export default function Footer() {
               Platforms
             </span>
             {[
-              { href: "https://vrijwilligersmatch.nl", label: "Vrijwilligersmatch.nl" },
               { href: "https://pootgelukkig.nl", label: "Pootgelukkig.nl" },
               { href: "https://samenvaren.nl", label: "Samenvaren.nl" },
             ].map((l) => (

@@ -42,7 +42,6 @@ export const metadata: Metadata = {
     "verbinding",
     "eenzaamheid",
     "vrijwilligers",
-    "vrijwilligersmatch",
     "pootgelukkig",
     "samenvaren",
     "sociaal",
