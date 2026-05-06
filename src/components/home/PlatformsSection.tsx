@@ -1,12 +1,5 @@
 const platforms = [
   {
-    tag: "Vrijwilligers",
-    name: "Vrijwilligersmatch.nl",
-    description: "AI-matching op motivatie verbindt vrijwilligers en organisaties op basis van wie iemand is — voor hogere retentie en duurzame impact.",
-    stat: "Klaar voor pilot",
-    href: "https://vrijwilligersmatch.nl",
-  },
-  {
     tag: "Dieren & mensen",
     name: "Pootgelukkig.nl",
     description: "Dierenliefhebbers vinden elkaar voor uitlaathulp, oppas en gezelschap — verbinding via de viervoeter die niemand hoeft te missen.",
@@ -30,7 +23,7 @@ export default function PlatformsSection() {
           <span className="text-xs uppercase tracking-widest text-accent font-label">
             Onze platforms
           </span>
-          <span className="text-xs text-secondary font-label">3 platforms, 1 missie</span>
+          <span className="text-xs text-secondary font-label">2 platforms, 1 missie</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-accent/10">
