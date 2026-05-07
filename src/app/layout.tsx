@@ -64,6 +64,10 @@ export const metadata: Metadata = {
     description: "Verbinding voor iedereen die dat steuntje in de rug nodig heeft.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
